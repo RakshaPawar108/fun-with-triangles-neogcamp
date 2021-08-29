@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fun With Triangles | calculateArea</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <h1>Calculate Area</h1>
-    <label for="base">Base (in cm)</label>
-    <input type="number" id="base" />
-    <label for="height">Height (in cm)</label>
-    <input type="number" id="height" />
-    <button id="calc-area-btn">Calculate Area</button>
-    <div id="output"></div>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">Funn With Triangles</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="/index.html">isTriangle</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/quiz.html">triangleQuiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/hypotenuse.html">calculateHypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="/area.html">calculateArea</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Calculate Area</h1>
+      <label for="base">Base (in cm)</label>
+      <input type="number" id="base" />
+      <label for="height">Height (in cm)</label>
+      <input type="number" id="height" />
+      <button id="calc-area-btn">Calculate Area</button>
+      <div id="output"></div>
+    </main>
 
     <script src="./area.js"></script>
-</body>
+  </body>
 </html>
